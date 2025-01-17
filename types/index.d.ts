@@ -7,14 +7,14 @@ declare type CreateUserParams = {
     username: string;
     firstName: string | null;
     lastName: string | null;
-    photo: string | null;
+    photo: string;
   };
   
   declare type UpdateUserParams = {
     username: string;
     firstName: string | null;
     lastName: string | null;
-    photo: string | null;
+    photo: string;
   };
   
   // ====== IMAGE PARAMS
